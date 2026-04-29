@@ -32,12 +32,16 @@ body {
     padding: 20px;
   }
   
+  .search-box,
+  .report-grid {
+    width: 900px;
+    margin: 0 auto 35px auto;
+  }
+  
   .search-box {
     background: #f4ead7;
     padding: 30px;
     text-align: center;
-    margin: 0 auto 35px auto;
-    max-width: 900px;
     border: 2px solid black;
     box-shadow: 0 4px 10px rgba(0,0,0,.18);
   }
@@ -88,8 +92,6 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 30px;
-    max-width: 900px;
-    margin: 0 auto;
   }
   
   .report-card {
