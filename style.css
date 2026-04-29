@@ -22,8 +22,8 @@ body {
     color: #d84315;
     font-size: 3.2rem;
     font-weight: 700;
-    text-decoration: underline;
-    letter-spacing: 1px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
   }
   
   .container {
@@ -37,7 +37,8 @@ body {
     padding: 30px;
     text-align: center;
     box-shadow: 0 4px 10px rgba(0,0,0,.18);
-    margin-bottom: 30px;
+    margin: 0 auto 35px auto;
+    max-width: 800px;
     border: 2px solid black;
   }
   
@@ -85,8 +86,8 @@ body {
   
   .report-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 22px;
+    grid-template-columns: 1fr;
+    gap: 25px;
   }
   
   .report-card {
@@ -95,6 +96,19 @@ body {
     box-shadow: 0 4px 10px rgba(0,0,0,.18);
     min-height: 360px;
     border: 2px solid black;
+    max-width: 850px;
+  }
+  
+  .today-card {
+    background: #ff9800;
+    margin-left: 40px;
+    margin-right: auto;
+  }
+  
+  .tomorrow-card {
+    background: #f44336;
+    margin-left: auto;
+    margin-right: 40px;
   }
   
   .report-card h2 {
@@ -113,14 +127,6 @@ body {
   
   .report-card span {
     font-weight: 700;
-  }
-  
-  .today-card {
-    background: #ff9800;
-  }
-  
-  .tomorrow-card {
-    background: #f44336;
   }
   
   footer {
