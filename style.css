@@ -33,9 +33,10 @@ body {
   }
   
   .search-box,
-  .report-grid {
+  .report-card {
     width: 900px;
     margin: 0 auto 35px auto;
+    box-sizing: border-box;
   }
   
   .search-box {
@@ -89,15 +90,13 @@ body {
   }
   
   .report-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 30px;
+    display: block;
   }
   
   .report-card {
     padding: 28px;
     color: white;
-    min-height: 420px;
+    min-height: 320px;
     border: 2px solid black;
     box-shadow: 0 4px 10px rgba(0,0,0,.18);
     text-align: center;
